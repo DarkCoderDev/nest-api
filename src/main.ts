@@ -10,7 +10,7 @@ async function start() {
 		.setTitle("Backend")
 		.setDescription("Example application with Nest.js")
 		.setVersion("1.0.0")
-		.addTag("DarkCoder30")
+		.addTag("DarkCoderDev")
 		.build();
 
 	const app = (await NestFactory.create(AppModule));
