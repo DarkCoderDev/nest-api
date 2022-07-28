@@ -7,7 +7,7 @@ const port: Process | number = process.env.PORT ?? 8000;
 
 async function start() {
 	const config = new DocumentBuilder()
-		.setTitle("Backend PRO")
+		.setTitle("Backend")
 		.setDescription("Example application with Nest.js")
 		.setVersion("1.0.0")
 		.addTag("DarkCoder30")
